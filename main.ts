@@ -7,6 +7,8 @@ function findSuit (cardNumber: number) {
         return "Clubs"
     } else if (Math.idiv(cardNumber, 13) == 3) {
         return "Hearts"
+    } else {
+        return "Joker"
     }
 }
 function findPip (cardNumber: number) {
